@@ -1,0 +1,3 @@
+Income: 500, Category: Salary
+Income: 700, Category: Profit
+Income: 1200, Category: Business

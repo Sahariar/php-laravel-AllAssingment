@@ -1,0 +1,4 @@
+Expense: 200, Category: Rent
+Expense: 200, Category: Food 
+Expense: 100 , Category: Medication
+Expense: 230 , Category: Transpotation

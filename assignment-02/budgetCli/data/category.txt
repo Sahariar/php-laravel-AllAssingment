@@ -1,0 +1,7 @@
+Type: Income, Category: Salary
+Type: Income, Category: Profit
+Type: Expense, Category: Rent
+Type: Expense, Category: Food
+Type: Expense, Category: Medication
+Type: Income, Category: Business
+Type: Expense, Category: Transpotation
