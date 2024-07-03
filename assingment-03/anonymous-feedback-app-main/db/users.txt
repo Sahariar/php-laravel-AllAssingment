@@ -1,0 +1,6 @@
+1,Sahariar kabir,sahariark@gmail.com,$2y$10$q82YMX4D2.4zj0IqF5WPHukLHBC5wLHKu6K8FPuOV8ZjbPG4NUeN2
+2,Samsung,riark@gmail.com,$2y$10$xzSqaWFyVQJJy9mpeALkkul66Cy.QMVrvfEvPnS.AbI1ixZtRy.rS
+3,apple.com,ahiark@gmail.com,$2y$10$pUbv8G8.4HR0Iy3pNYMDpezDsEQo0eC4lknZQKHlIqF8xZ937CKZG
+4,Iphone 15 Pro,sahariark@gmail.com,$2y$10$UhxyJUB0KVTgUfW.m3sCw.9gWaKHtMA9sYxxGBFlxKAqEt4lZRk0y
+5,Sahariar kabir,123@gmail.com,$2y$10$jOCF07ZCBxY5Kk9AsQVaBO4gtUGjT7uWrKDh0PpSRt5/VjPRqPirK
+6,Sahariar kabir,sahariark@gmail.com,$2y$10$DKKrbeZPhBHNOiPQgV8tQe9CDSogN25FmEooEwHyokn8dwiuAPiVS

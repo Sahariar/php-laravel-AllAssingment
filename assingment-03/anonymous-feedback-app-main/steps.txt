@@ -1,0 +1,4 @@
+Create Relation table to store feedback to registered user.
+so i think id will be qunique.
+Table of users will be : Id , Name, Email, Password(use hashed to security);
+Table of User Feedback : Feedback_Id User_Id , Feedback
