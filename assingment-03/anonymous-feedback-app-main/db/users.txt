@@ -4,3 +4,4 @@
 4,Iphone 15 Pro,sahariark@gmail.com,$2y$10$UhxyJUB0KVTgUfW.m3sCw.9gWaKHtMA9sYxxGBFlxKAqEt4lZRk0y
 5,Sahariar kabir,123@gmail.com,$2y$10$jOCF07ZCBxY5Kk9AsQVaBO4gtUGjT7uWrKDh0PpSRt5/VjPRqPirK
 6,Sahariar kabir,sahariark@gmail.com,$2y$10$DKKrbeZPhBHNOiPQgV8tQe9CDSogN25FmEooEwHyokn8dwiuAPiVS
+7,Samsung,saha@gmail.com,$2y$10$4yH/YEr18cYf6ykuUAz/fOG2SzOg2cMSREPRm/qo8aNlc7OPrW5pe
