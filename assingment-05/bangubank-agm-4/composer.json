@@ -1,0 +1,23 @@
+{
+    "name": "sahariar/bangubank-agm-4",
+    "description": "Simple Bank webapp with php",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+            "app/utilities/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Sahariar"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "ramsey/uuid": "^4.7"
+    }
+}

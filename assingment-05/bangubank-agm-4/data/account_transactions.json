@@ -1,0 +1,154 @@
+[
+    {
+        "transactionsId": "30e350e1-ea69-46f2-a576-b00e6667b6a5",
+        "receiverId": 1,
+        "customerId": 1,
+        "transactionType": "deposit",
+        "balance": "10000",
+        "date": 1720716823
+    },
+    {
+        "transactionsId": "923dd7fd-e43d-456e-a7d1-1d23b97dd8b8",
+        "receiverId": 1,
+        "customerId": 1,
+        "transactionType": "deposit",
+        "balance": "3233",
+        "date": 1720716909
+    },
+    {
+        "transactionsId": "a6ac3e00-eb2b-4a61-8625-4a0efd3da68f",
+        "receiverId": 1,
+        "customerId": 1,
+        "transactionType": "withdraw",
+        "balance": "1000",
+        "date": 1720717163
+    },
+    {
+        "transactionsId": "d9ef7a42-c6e3-436b-816d-c52f3edc0ac4",
+        "receiverId": 2,
+        "customerId": 1,
+        "transactionType": "withdraw",
+        "balance": "500",
+        "date": 1720717903
+    },
+    {
+        "transactionsId": "2f22334d-95ef-4d34-ac72-ebaaf5a2c974",
+        "receiverId": 1,
+        "customerId": 2,
+        "transactionType": "deposit",
+        "balance": "500",
+        "date": 1720717903
+    },
+    {
+        "transactionsId": "5f3890f7-70d5-4b3f-916a-ef33c784ed0f",
+        "receiverId": 2,
+        "customerId": 2,
+        "transactionType": "withdraw",
+        "balance": "50",
+        "date": 1720718289
+    },
+    {
+        "transactionsId": "dd5bd72a-4fbd-46b1-845c-462bde782f66",
+        "receiverId": 4,
+        "customerId": 4,
+        "transactionType": "deposit",
+        "balance": "60000",
+        "date": 1720803463
+    },
+    {
+        "transactionsId": "d506b50e-7a2d-4a2c-8da0-e43cb04136ec",
+        "receiverId": 3,
+        "customerId": 4,
+        "transactionType": "withdraw",
+        "balance": "500",
+        "date": 1720803518
+    },
+    {
+        "transactionsId": "986267f2-e2a0-4575-b8a8-20830cea8a16",
+        "receiverId": 4,
+        "customerId": 3,
+        "transactionType": "deposit",
+        "balance": "500",
+        "date": 1720803518
+    },
+    {
+        "transactionsId": "add42ce6-de83-4259-9684-eb7896ddef80",
+        "receiverId": 4,
+        "customerId": 4,
+        "transactionType": "withdraw",
+        "balance": "500",
+        "date": 1720803591
+    },
+    {
+        "transactionsId": "632efdcf-82ac-46c9-9924-eaaea008e2f9",
+        "receiverId": 5,
+        "customerId": 5,
+        "transactionType": "deposit",
+        "balance": "70000",
+        "date": 1720804015
+    },
+    {
+        "transactionsId": "4313f2fa-faab-4334-91cd-843d2f3b3a6b",
+        "receiverId": 8,
+        "customerId": 5,
+        "transactionType": "withdraw",
+        "balance": "40000",
+        "date": 1720804036
+    },
+    {
+        "transactionsId": "88bf9a9c-7665-4321-beab-3d380825cf85",
+        "receiverId": 5,
+        "customerId": 8,
+        "transactionType": "deposit",
+        "balance": "40000",
+        "date": 1720804036
+    },
+    {
+        "transactionsId": "c9db92f8-56ca-4453-b4ca-f2ccf84f2f4f",
+        "receiverId": 6,
+        "customerId": 6,
+        "transactionType": "deposit",
+        "balance": "6000000",
+        "date": 1720804201
+    },
+    {
+        "transactionsId": "6e00fbf7-87b8-45be-a5d1-e4ab1a92fa7c",
+        "receiverId": 7,
+        "customerId": 7,
+        "transactionType": "deposit",
+        "balance": "500000",
+        "date": 1720805290
+    },
+    {
+        "transactionsId": "75e60015-206d-4e7e-ac08-afddc9a0cdcc",
+        "receiverId": 11,
+        "customerId": 11,
+        "transactionType": "deposit",
+        "balance": "6000000",
+        "date": 1720885140
+    },
+    {
+        "transactionsId": "5fb10400-45e3-42ce-a3b1-57c33325b573",
+        "receiverId": 10,
+        "customerId": 11,
+        "transactionType": "withdraw",
+        "balance": "50000",
+        "date": 1720885159
+    },
+    {
+        "transactionsId": "62937366-f620-40b5-8d04-fe16ff4dc67c",
+        "receiverId": 11,
+        "customerId": 10,
+        "transactionType": "deposit",
+        "balance": "50000",
+        "date": 1720885159
+    },
+    {
+        "transactionsId": "29df6067-9b5b-496d-90d4-bc8c81a7a8e7",
+        "receiverId": 11,
+        "customerId": 11,
+        "transactionType": "withdraw",
+        "balance": "20000",
+        "date": 1720885173
+    }
+]
