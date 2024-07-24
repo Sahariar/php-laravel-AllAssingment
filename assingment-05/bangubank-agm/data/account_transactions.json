@@ -1,0 +1,146 @@
+[
+	{
+		"transaction_id" : 1,
+		"customer_id" : 2,
+		"receiver_id" : 2,
+		"amount" : 9000000.00,
+		"balance" : 9000000.00,
+		"type" : "deposit",
+		"date" : "2024-07-20 22:31:42"
+	},
+	{
+		"transaction_id" : 2,
+		"customer_id" : 2,
+		"receiver_id" : 2,
+		"amount" : 50000.00,
+		"balance" : 8950000.00,
+		"type" : "withdraw",
+		"date" : "2024-07-20 22:44:57"
+	},
+	{
+		"transaction_id" : 3,
+		"customer_id" : 2,
+		"receiver_id" : 2,
+		"amount" : 200000.00,
+		"balance" : 9150000.00,
+		"type" : "deposit",
+		"date" : "2024-07-20 23:04:35"
+	},
+	{
+		"transaction_id" : 4,
+		"customer_id" : 2,
+		"receiver_id" : 2,
+		"amount" : 200000.00,
+		"balance" : 9350000.00,
+		"type" : "deposit",
+		"date" : "2024-07-20 23:09:16"
+	},
+	{
+		"transaction_id" : 5,
+		"customer_id" : 2,
+		"receiver_id" : 2,
+		"amount" : 200000.00,
+		"balance" : 9550000.00,
+		"type" : "deposit",
+		"date" : "2024-07-20 23:17:11"
+	},
+	{
+		"transaction_id" : 6,
+		"customer_id" : 3,
+		"receiver_id" : 3,
+		"amount" : 600000.00,
+		"balance" : 600000.00,
+		"type" : "deposit",
+		"date" : "2024-07-20 23:26:05"
+	},
+	{
+		"transaction_id" : 7,
+		"customer_id" : 3,
+		"receiver_id" : 3,
+		"amount" : 50000.00,
+		"balance" : 550000.00,
+		"type" : "withdraw",
+		"date" : "2024-07-21 00:00:03"
+	},
+	{
+		"transaction_id" : 8,
+		"customer_id" : 3,
+		"receiver_id" : 3,
+		"amount" : 5000.00,
+		"balance" : 545000.00,
+		"type" : "withdraw",
+		"date" : "2024-07-21 00:20:09"
+	},
+	{
+		"transaction_id" : 9,
+		"customer_id" : 3,
+		"receiver_id" : 3,
+		"amount" : 5000.00,
+		"balance" : 550000.00,
+		"type" : "deposit",
+		"date" : "2024-07-21 00:20:09"
+	},
+	{
+		"transaction_id" : 10,
+		"customer_id" : 7,
+		"receiver_id" : 7,
+		"amount" : 8000000.00,
+		"balance" : 8000000.00,
+		"type" : "deposit",
+		"date" : "2024-07-21 01:27:13"
+	},
+	{
+		"transaction_id" : 11,
+		"customer_id" : 7,
+		"receiver_id" : 7,
+		"amount" : 481.00,
+		"balance" : 7999519.00,
+		"type" : "withdraw",
+		"date" : "2024-07-21 01:28:59"
+	},
+	{
+		"transaction_id" : 12,
+		"customer_id" : 9,
+		"receiver_id" : 9,
+		"amount" : 900000.00,
+		"balance" : 900000.00,
+		"type" : "deposit",
+		"date" : "2024-07-21 02:48:15"
+	},
+	{
+		"transaction_id" : 13,
+		"customer_id" : 9,
+		"receiver_id" : 5,
+		"amount" : 6000.00,
+		"balance" : 894000.00,
+		"type" : "withdraw",
+		"date" : "2024-07-21 22:08:48"
+	},
+	{
+		"transaction_id" : 14,
+		"customer_id" : 5,
+		"receiver_id" : 9,
+		"amount" : 6000.00,
+		"balance" : 6000.00,
+		"type" : "deposit",
+		"date" : "2024-07-21 22:08:48"
+	},
+	{
+		"transaction_id" : 15,
+		"customer_id" : 9,
+		"receiver_id" : 6,
+		"amount" : 7000.00,
+		"balance" : 887000.00,
+		"type" : "withdraw",
+		"date" : "2024-07-21 22:14:18"
+	},
+	{
+		"transaction_id" : 16,
+		"customer_id" : 6,
+		"receiver_id" : 9,
+		"amount" : 7000.00,
+		"balance" : 7000.00,
+		"type" : "deposit",
+		"date" : "2024-07-21 22:14:18"
+	}
+]

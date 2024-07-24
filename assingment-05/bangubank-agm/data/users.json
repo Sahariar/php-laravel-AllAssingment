@@ -1,0 +1,102 @@
+[
+	{
+		"user_id" : 1,
+		"email" : "sahariark@gmail.com",
+		"name" : "Sahariar Kabir",
+		"password" : "$2y$10$wLnMnyTlTNHxRJV3qj9.SeDLYFoP4tOxXd4vtNPfhSSrDzWhlY.ce",
+		"color" : "fuchsia",
+		"role" : "admin",
+		"created_at" : "2024-07-20 21:58:25",
+		"update_at" : "2024-07-20 21:58:25"
+	},
+	{
+		"user_id" : 2,
+		"email" : "wipivepo@mailinator.com",
+		"name" : "Patricia Shepherd",
+		"password" : "$2y$10$EqHRYFpJTRinR2Hegje6N.fZnvrO7MF7CXPRAYFN2U8MY.E.sl0zm",
+		"color" : "zinc",
+		"role" : "customer",
+		"created_at" : "2024-07-20 22:04:55",
+		"update_at" : "2024-07-20 22:04:55"
+	},
+	{
+		"user_id" : 3,
+		"email" : "kyzemi@mailinator.com",
+		"name" : "Tanner Davis",
+		"password" : "$2y$10$vLDcMUS6Sp4YqNc.IOyomeJoT6mhKLq8Vev3oErziZSTclx7SgGj2",
+		"color" : "emerald",
+		"role" : "customer",
+		"created_at" : "2024-07-20 23:25:38",
+		"update_at" : "2024-07-20 23:25:38"
+	},
+	{
+		"user_id" : 4,
+		"email" : "fageveq@mailinator.com",
+		"name" : "Nolan Pope",
+		"password" : "$2y$10$uVWBnvhSpmQ/gX5sdp6SquXmCNd9nTMm3rfThyjL7LplDvKHoU5by",
+		"color" : "red",
+		"role" : "customer",
+		"created_at" : "2024-07-21 01:07:32",
+		"update_at" : "2024-07-21 01:07:32"
+	},
+	{
+		"user_id" : 5,
+		"email" : "fiko@mailinator.com",
+		"name" : "Glenna Gilbert",
+		"password" : "$2y$10$TVR6H6phWwEmQqgssDlmueQ2qRqsPmzlrivu/rVUJJSAeyqDGjVXa",
+		"color" : "stone",
+		"role" : "customer",
+		"created_at" : "2024-07-21 01:09:41",
+		"update_at" : "2024-07-21 01:09:41"
+	},
+	{
+		"user_id" : 6,
+		"email" : "namohekep@mailinator.com",
+		"name" : "Lucian Barker",
+		"password" : "$2y$10$wfZm7Mru5Xm0FjGypos/huWnHOp5M.fincJDT4bYwF95AJd.MTru6",
+		"color" : "orange",
+		"role" : "customer",
+		"created_at" : "2024-07-21 01:14:44",
+		"update_at" : "2024-07-21 01:14:44"
+	},
+	{
+		"user_id" : 7,
+		"email" : "qeqa@mailinator.com",
+		"name" : "Charles Mcbride",
+		"password" : "$2y$10$RvTp1FrLH5mXDIBJ9Jonr.B0S6Ymb6X.18zi/lS.VZ1BwJ/AWBB9e",
+		"color" : "stone",
+		"role" : "customer",
+		"created_at" : "2024-07-21 01:15:18",
+		"update_at" : "2024-07-21 01:15:18"
+	},
+	{
+		"user_id" : 8,
+		"email" : "kicabem@mailinator.com",
+		"name" : "Alika Conner",
+		"password" : "$2y$10$1kvDF9bf8z5JgeUvw15uQ.wcMpiH0JUg6xmkHZr2ITNaJ/pF3u/zO",
+		"color" : "indigo",
+		"role" : "customer",
+		"created_at" : "2024-07-21 01:16:29",
+		"update_at" : "2024-07-21 01:16:29"
+	},
+	{
+		"user_id" : 9,
+		"email" : "zafuqi@mailinator.com",
+		"name" : "Aphrodite Slater",
+		"password" : "$2y$10$3aDNaPh6RKrVjGSDcbn7oOSCuvxQj9SJX0crrWBoALNNd4W8DseN2",
+		"color" : "orange",
+		"role" : "customer",
+		"created_at" : "2024-07-21 02:47:43",
+		"update_at" : "2024-07-21 02:47:43"
+	},
+	{
+		"user_id" : 10,
+		"email" : "sejy@mailinator.com",
+		"name" : "Amena James",
+		"password" : "$2y$10$ut0bHyKqNZRq/kLzYErU5.aFmlXtbM5eg50G0BJsS1lOYlYQgmgQS",
+		"color" : "gray",
+		"role" : "customer",
+		"created_at" : "2024-07-21 22:28:35",
+		"update_at" : "2024-07-21 22:28:35"
+	}
+]

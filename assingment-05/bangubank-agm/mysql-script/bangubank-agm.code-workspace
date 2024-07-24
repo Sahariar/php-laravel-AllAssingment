@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"terminal.integrated.fontFamily": "Fira Code",
+		"terminal.integrated.defaultProfile.osx": "",
+		"liveServer.settings.port": 5741
+	}
+}
