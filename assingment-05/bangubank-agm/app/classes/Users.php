@@ -15,6 +15,7 @@
  */
 
 namespace app\classes;
+
 use Includes\userInterface;
 
 class Users

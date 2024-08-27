@@ -8,17 +8,18 @@ use Includes\databaseUsers;
 use Includes\dbTransaction;
 use Includes\fileStorageUsers;
 use Includes\fileStorageTransactions;
+
 // Load the configuration file
 $config = require __DIR__ . '/../config/config.php';
 
 // storage is file then do or load other one.
-if($config['storage'] === 'file'){
-	$database = new fileStorageUsers($config);
-	$transatciondatabase = new fileStorageTransactions($config);
-}else{
-	// Create a new Database instance
-	$database = new databaseUsers($config);
-	$transatciondatabase = new dbTransaction($config);
+if($config['storage'] === 'file') {
+    $database = new fileStorageUsers($config);
+    $transatciondatabase = new fileStorageTransactions($config);
+} else {
+    // Create a new Database instance
+    $database = new databaseUsers($config);
+    $transatciondatabase = new dbTransaction($config);
 }
 
 $user = new Users($database);
@@ -26,9 +27,9 @@ $accountManager = new AccountManager($transatciondatabase);
 // dd($_SESSION);
 // Check if the user is logged in
 if (!isset($_SESSION['email'])) {
-	// If not logged in, redirect to login page
-	header("Location: /login.php");
-	exit();
+    // If not logged in, redirect to login page
+    header("Location: /login.php");
+    exit();
 }
 
 $errorMessage = [];
@@ -36,16 +37,16 @@ $amount;
 
 if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
-	if (empty($_POST['amount'])) {
-		$errorMessage['amount'] = "Please Provide Your amount";
-	} else {
-		$amount = sanitizeInput($_POST['amount']);
-	}
+    if (empty($_POST['amount'])) {
+        $errorMessage['amount'] = "Please Provide Your amount";
+    } else {
+        $amount = sanitizeInput($_POST['amount']);
+    }
 
 
-	if (empty($errorMessage)) {
-		$accountManager->addDeposit($amount, $_SESSION['user_id'], $_SESSION['user_id']);
-	}
+    if (empty($errorMessage)) {
+        $accountManager->addDeposit($amount, $_SESSION['user_id'], $_SESSION['user_id']);
+    }
 }
 $currentBalance = $accountManager->showBalanceById($_SESSION['user_id']);
 ?>
@@ -229,9 +230,9 @@ $currentBalance = $accountManager->showBalanceById($_SESSION['user_id']);
 							</dt>
 							<dd class="w-full flex-none text-3xl font-medium leading-10 tracking-tight text-gray-900">
 								<?php if (isset($currentBalance)) : ?>
-									$<?php echo $currentBalance ?>
+								$<?php echo $currentBalance ;?>
 								<?php else : ?>
-									$0.0
+								$0.00
 								<?php endif ?>
 							</dd>
 						</div>
@@ -251,7 +252,7 @@ $currentBalance = $accountManager->showBalanceById($_SESSION['user_id']);
 										<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-0">
 											<span class="text-gray-400 sm:text-4xl">$</span>
 										</div>
-										<input type="number" name="amount" id="amount" class="block w-full ring-0 outline-none text-xl pl-4 py-2 sm:pl-8 text-gray-800 border-b border-b-<?php echo $_SESSION['color']; ?>-500 placeholder:text-gray-400 sm:text-4xl" placeholder="0.00" required />
+										<input type="number" name="amount" id="amount" class="block w-full ring-0 outline-none text-xl pl-4 py-2 sm:pl-8 text-gray-800 border-b border-b-<?php echo $_SESSION['color']; ?>-500 placeholder:text-gray-400 sm:text-4xl" step="0.01" placeholder="0.00" required  />
 									</div>
 
 									<!-- Submit Button -->

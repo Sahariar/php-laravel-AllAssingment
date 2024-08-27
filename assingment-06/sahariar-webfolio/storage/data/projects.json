@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "title": "E-Commerce Platform",
+        "description": "Developed a full-featured e-commerce platform using Laravel, integrating payment gateways, product management, and order tracking. Implemented a responsive design and optimized the platform for scalability and performance.",
+        "technologies": ["Laravel", "PHP", "MySQL", "JavaScript", "Bootstrap"],
+        "link": "https://example.com/e-commerce-platform",
+        "image": "/images/projects/e-commerce-platform.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Project Management Tool",
+        "description": "Built a project management tool that allows teams to collaborate, track progress, and manage tasks efficiently. Utilized Laravel’s robust ORM for seamless database interactions and implemented real-time notifications using WebSockets.",
+        "technologies": ["Laravel", "PHP", "MySQL", "Vue.js", "Redis"],
+        "link": "https://example.com/project-management-tool",
+        "image": "/images/projects/project-management-tool.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Social Media Dashboard",
+        "description": "Created a social media dashboard that aggregates content from multiple social platforms, providing analytics and scheduling tools for content management. Integrated third-party APIs and ensured data security with Laravel’s built-in authentication.",
+        "technologies": ["Laravel", "PHP", "MySQL", "API Integration", "Tailwind CSS"],
+        "link": "https://example.com/social-media-dashboard",
+        "image": "/images/projects/social-media-dashboard.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Learning Management System (LMS)",
+        "description": "Developed a Learning Management System that supports course creation, user enrollment, and progress tracking. Implemented role-based access control and utilized Laravel’s queue system for handling background tasks efficiently.",
+        "technologies": ["Laravel", "PHP", "MySQL", "JavaScript", "Bootstrap"],
+        "link": "https://example.com/learning-management-system",
+        "image": "/images/projects/learning-management-system.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Real Estate Listing Platform",
+        "description": "Built a real estate listing platform with advanced search capabilities, property management features, and user profiles. Leveraged Laravel's powerful routing and blade templating system to create a seamless user experience.",
+        "technologies": ["Laravel", "PHP", "MySQL", "JavaScript", "Vue.js"],
+        "link": "https://example.com/real-estate-listing-platform",
+        "image": "/images/projects/real-estate-listing-platform.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Custom CRM Solution",
+        "description": "Designed and developed a custom CRM solution to manage client interactions, sales pipelines, and customer support. Integrated with third-party services like email and calendar APIs to provide a unified experience.",
+        "technologies": ["Laravel", "PHP", "MySQL", "JavaScript", "Bootstrap"],
+        "link": "https://example.com/custom-crm-solution",
+        "image": "/images/projects/custom-crm-solution.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Online Learning Platform",
+        "description": "Created an online learning platform where users can sign up for courses, track their progress, and earn certifications. Built an intuitive admin panel for course management and analytics.",
+        "technologies": ["Laravel", "PHP", "MySQL", "JavaScript", "Tailwind CSS"],
+        "link": "https://example.com/online-learning-platform",
+        "image": "/images/projects/online-learning-platform.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Job Portal",
+        "description": "Developed a job portal that connects employers with potential candidates. Features include job listings, application tracking, and advanced search filters. Integrated payment options for premium job postings.",
+        "technologies": ["Laravel", "PHP", "MySQL", "Vue.js", "Stripe API"],
+        "link": "https://example.com/job-portal",
+        "image": "/images/projects/job-portal.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Event Management System",
+        "description": "Built an event management system that allows users to create, manage, and attend events. Implemented features like ticket booking, calendar integration, and real-time notifications.",
+        "technologies": ["Laravel", "PHP", "MySQL", "JavaScript", "Bootstrap"],
+        "link": "https://example.com/event-management-system",
+        "image": "/images/projects/event-management-system.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Inventory Management System",
+        "description": "Developed an inventory management system for tracking products, managing suppliers, and generating reports. Integrated barcode scanning for quick updates and streamlined inventory control.",
+        "technologies": ["Laravel", "PHP", "MySQL", "JavaScript", "Vue.js"],
+        "link": "https://example.com/inventory-management-system",
+        "image": "/images/projects/inventory-management-system.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Travel Booking Platform",
+        "description": "Created a travel booking platform that allows users to book flights, hotels, and rental cars. Implemented a robust search engine and integrated third-party APIs for real-time availability and pricing.",
+        "technologies": ["Laravel", "PHP", "MySQL", "JavaScript", "Bootstrap"],
+        "link": "https://example.com/travel-booking-platform",
+        "image": "/images/projects/travel-booking-platform.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Online Marketplace",
+        "description": "Built an online marketplace where users can buy and sell products. Features include product listings, user reviews, and secure payment processing. Implemented a scalable architecture to handle high traffic volumes.",
+        "technologies": ["Laravel", "PHP", "MySQL", "Vue.js", "Stripe API"],
+        "link": "https://example.com/online-marketplace",
+        "image": "/images/projects/online-marketplace.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Fitness Tracking App",
+        "description": "Developed a fitness tracking app that allows users to set goals, track workouts, and monitor progress over time. Integrated with wearable devices for real-time data synchronization and personalized recommendations.",
+        "technologies": ["Laravel", "PHP", "MySQL", "JavaScript", "Tailwind CSS"],
+        "link": "https://example.com/fitness-tracking-app",
+        "image": "/images/projects/fitness-tracking-app.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Real-Time Chat Application",
+        "description": "Created a real-time chat application using Laravel and WebSockets. Users can engage in private and group chats, share media files, and receive instant notifications. Implemented a modern, responsive UI for an optimal user experience.",
+        "technologies": ["Laravel", "PHP", "MySQL", "WebSockets", "Vue.js"],
+        "link": "https://example.com/real-time-chat-application",
+        "image": "/images/projects/real-time-chat-application.jpg"
+    }
+]

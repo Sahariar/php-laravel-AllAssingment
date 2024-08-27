@@ -2,18 +2,21 @@
 session_start();
 require 'vendor/autoload.php';
 
+use App\classes\Notifications;
 use App\Classes\Users;
 use Includes\databaseUsers;
+use Includes\dbNotification;
 use Includes\fileStorageUsers;
 
 // Load the configuration file
 $config = require 'config/config.php';
 // storage is file then do or load other one.
-if($config['storage'] === 'file'){
-	$database = new fileStorageUsers($config);
-}else{
-	// Create a new Database instance
-	$database = new databaseUsers($config);
+if($config['storage'] === 'file') {
+    $database = new fileStorageUsers($config);
+} else {
+    // Create a new Database instance
+    $database = new databaseUsers($config);
+    $databaseNotification = new dbNotification($config);
 }
 
 $errorMessage = [];
@@ -22,6 +25,8 @@ $name;
 $email;
 $password;
 $user = new Users($database);
+$notification = new Notifications($databaseNotification);
+
 if ($_SERVER['REQUEST_METHOD'] === "POST") {
     if (empty($_POST['name'])) {
         $errorMessage['name'] = "Please Provide Your Name";
@@ -54,14 +59,16 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
         'role' => "customer",
         'color' => getRandomColor()
 ];
-
+		$user->addUser($newUserData);
         $userId = $user->getUserByEmail($email);
-
-        $user->addUser($newUserData);
+        
         $_SESSION['name'] = $name;
         $_SESSION['email'] = $email;
         $_SESSION['color'] = $newUserData['color'];
         $_SESSION['user_id'] = $userId['user_id'];
+		$notfType = "User Created";
+		$notfMessage = "New User Created with . $name and . $email ";
+		$setNotification = $notification->addNotification($userId['user_id'], $notfType, $notfMessage);
         header("Location: customer/dashboard.php");
     }
 }

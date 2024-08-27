@@ -4,10 +4,13 @@ require __DIR__ . '/../vendor/autoload.php';
 
 use App\classes\AccountManager;
 use App\classes\Users;
+use App\classes\Notifications;
+use Includes\dbNotification;
 use Includes\databaseUsers;
 use Includes\dbTransaction;
 use Includes\fileStorageUsers;
 use Includes\fileStorageTransactions;
+
 // Load the configuration file
 $config = require __DIR__ . '/../config/config.php';
 // storage is file then do or load other one.
@@ -19,9 +22,11 @@ if($config['storage'] === 'file'){
 	// Create a new Database instance
 	$database = new databaseUsers($config);
 	$transatciondatabase = new dbTransaction($config);
+  $databaseNotification = new dbNotification($config);
 }
 $user = new Users($database);
 $accountManager = new AccountManager($transatciondatabase);
+$notification = new Notifications($databaseNotification);
 
 if (!isset($_SESSION['email'])){
   // If not logged in and role isn't admin, redirect to login page
@@ -34,6 +39,7 @@ if (!isset($_SESSION['email'])){
 }
 
 $usersData = $user->readUserData();
+$allnNotifications = $notification->getAllNotification();
 // dd($usersData);
 // Filter out users with role "admin" for display
 $filteredUsers = array_filter($usersData, function($user) {
@@ -142,7 +148,7 @@ $filteredUsers = array_filter($usersData, function($user) {
               <div class="hidden gap-2 sm:ml-6 sm:flex sm:items-center">
                 <!-- Profile dropdown -->
                 <div
-                  class="relative ml-3"
+                  class="relative ml-3 flex"
                   x-data="{ open: false }">
                   <div>
                     <button
@@ -164,6 +170,28 @@ $filteredUsers = array_filter($usersData, function($user) {
                         src="https://avatars.githubusercontent.com/u/831997"
                         alt="Ahmed Shamim Hasan Shaon" /> -->
                     </button>
+                  </div>
+                <div
+                  class="relative ml-3 flex"
+                  x-data="{ open: false }">
+                  <div>
+                  <button
+                  type="button"
+                  class="flex-shrink-0 p-1 ml-auto rounded-full bg-sky-100 text-sky-700 hover:text-black focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-sky-600">
+                  <span class="sr-only">View notifications</span>
+                  <svg
+                    class="w-8 h-8"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+                  </svg>
+                </button>
                   </div>
 
                   <!-- Dropdown menu -->
@@ -271,7 +299,7 @@ $filteredUsers = array_filter($usersData, function($user) {
                 </div>
                 <button
                   type="button"
-                  class="flex-shrink-0 p-1 ml-auto rounded-full bg-sky-600 text-sky-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-sky-600">
+                  class="flex-shrink-0 p-1 ml-auto rounded-full bg-green-600 text-sky-200 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-sky-600">
                   <span class="sr-only">View notifications</span>
                   <svg
                     class="w-6 h-6"

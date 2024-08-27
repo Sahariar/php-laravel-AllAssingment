@@ -220,9 +220,9 @@ $transactionsData = $accountManager->showTransactionsById($_SESSION['user_id']);
 							</dt>
 							<dd class="w-full flex-none text-3xl font-medium leading-10 tracking-tight text-gray-900">
                 <?php if(isset($currentBalance)) : ?>
-								$<?php echo $currentBalance ?>
+				$<?php echo $currentBalance ?>
                 <?php else: ?>
-                $0.0
+                $0.00
                 <?php endif ?>
 							</dd>
 						</div>

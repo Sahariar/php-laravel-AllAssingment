@@ -87,7 +87,7 @@ class dbTransaction implements transactionInterface
                 $totalBalance -= $transactionData['amount'];
             }
         }
-        return $totalBalance;
+        return number_format( $totalBalance, 2, '.', '');;
     }
 
     public function showTransactionsById($userId)
