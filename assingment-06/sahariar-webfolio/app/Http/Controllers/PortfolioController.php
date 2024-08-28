@@ -10,7 +10,12 @@ class PortfolioController extends Controller
     //
     public function index()
     {
-        return view('home');
+        $allProjects = json_decode(File::get(storage_path('data/projects.json')), true);
+                // Limit the number of projects displayed on the homepage (e.g., show only 6)
+                $projects = array_slice($allProjects, 0, 4);
+
+                // Pass the limited projects data to the homepage view
+                return view('home', compact('projects'));
     }
     public function projects()
     {
