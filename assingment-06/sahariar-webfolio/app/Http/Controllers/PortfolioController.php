@@ -33,4 +33,9 @@ class PortfolioController extends Controller
         return abort(404, 'Project not found');
     }
     }
+    public function workExperiences()
+    {
+        return view('workex');
+    }
+
 }

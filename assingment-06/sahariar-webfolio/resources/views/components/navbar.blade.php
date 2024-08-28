@@ -32,7 +32,9 @@
             aria-labelledby="hs-navbar-alignment-collapse">
             <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
                 <x-nav-link href="/" :active="request()->is('/')" type="a">Home</x-nav-link>
+                <x-nav-link href="/works" :active="request()->is('/projects')" type="a">Work Experiences</x-nav-link>
                 <x-nav-link href="/projects" :active="request()->is('/projects')" type="a">Project</x-nav-link>
+
 
             </div>
         </div>
